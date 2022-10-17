@@ -1,0 +1,24 @@
+
+body {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.navbar {
+    margin: 0;
+    background-color: #060b26;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-links {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-con {
+    list-style: none;
+}
