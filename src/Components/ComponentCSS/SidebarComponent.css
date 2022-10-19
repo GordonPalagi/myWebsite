@@ -1,0 +1,29 @@
+.sidebar-bars {
+    position: fixed;
+    top: 65px;
+    left: 4em;
+    transform: scale(2);
+    z-index: 1;
+}
+
+.sidebar-menu {
+    background-color: aqua;
+    width: 15em;
+    height: 100vh;
+    position: relative;
+    top: -17px;
+    right: 100%;
+    transition: 350ms;
+}
+
+.sidebar-menu.active {
+    transition: 350ms;
+    right: 0;
+}
+
+.nav-text {
+    position: relative;
+    list-style: none;
+    top: 100px;
+    padding: 2em 3em;
+}

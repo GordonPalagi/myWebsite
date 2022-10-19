@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Rajdhani:wght@300&display=swap');
+
+.homeCard {
+    display: flex;
+    margin: auto 0;
+    font-family: 'Rajdhani', sans-serif;
+}
+    
+
+.home-text-con {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.home-text-con > h2 {
+    display: flex;
+    font-size: 10vw;
+    line-height: 10px;
+    margin: 50px 0px;
+    letter-spacing: -4.5px;
+    word-wrap: break-word;
+}
+
+.home-text-con > h4 {
+    font-size: 2vw;
+}
+
+.vertical-line-home {
+    opacity: .85;
+    height: 100vh;
+    z-index: -1;
+    border: 1px solid black;
+    filter: blur(1px);
+    position: relative;
+    top: -100px;
+    left: -18vw;
+}
+
+.homeCard-con {
+    margin-top: 20px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.headshot {
+    height: 15vw;
+    filter: grayscale(1);
+    width: auto;
+    border-radius: 500px;
+}
+
+.headshot-con {
+    margin-left: -20px;
+    display: flex;
+    position: relative;
+    right: 20vw;    
+    justify-content: flex-start;
+}

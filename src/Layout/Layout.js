@@ -2,16 +2,21 @@ import React from 'react'
 import Navbar from './Navbar'
 import Sidebar from './Sidebar'
 import Footer from './Footer'
+import './LayoutCSS/Layout.css'
 
 function Layout({children}) {
   return (
-      <div>
+      <div className='layout'>
           <Navbar/>
-          <Sidebar/>
           <main>{children}</main>
-          <Footer/>
       </div>
   )
 }
 
 export default Layout
+{/* <Navbar/>
+<div className='main-con'>
+  <Sidebar/>
+  <main>{children}</main>
+</div>
+<Footer/> */}
