@@ -5,17 +5,16 @@ import { SidebarData } from '../Components/SidebarData'
 
 function Navbar() {
 
-  const sidebarMap = 
+  const navbarMap = 
   <div className='nav-links-con'>
     {SidebarData.map((item) => {
       return (
         <ul className='container'>
-
-        <li key={item.id}>
-          <Link className='nav-link-elements' to={item.path}>
-            <span>{item.title}</span>
-          </Link>
-        </li>
+          <li key={item.id}>
+            <Link className='nav-link-elements' to={item.path}>
+              <span>{item.title}</span>
+            </Link>
+          </li>
         </ul>
       )
     })}
@@ -24,7 +23,7 @@ function Navbar() {
   return (
     <div className='navbar'>
       <div className='nav-links-con'>
-        {sidebarMap}
+        {navbarMap}
       </div>
     </div>
   )
