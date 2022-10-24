@@ -1,46 +1,39 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Rajdhani:wght@300&display=swap');
 
-.homeCard-con {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-}
-
 
 .homeCard {
     display: flex;
-    margin: auto 0;
     font-family: 'Rajdhani', sans-serif;
-    justify-content: space-between;
+}
+
+
+.homeCard > .home-text-con {
+    display: flex;
+    align-items: left;
+    margin: 0 auto;
+    height: fit-content;
 }
     
 
 .home-text-con {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    position: relative;
-    left: 10vw;
 }
 
 .home-text-con > h1 {
     display: flex;
-    font-size: 10vw;
-    /* letter-spacing: -4.5px; */
+    font-size: 9vw;
 }
 
 .home-text-con > h3 {
-    margin-top: 5vh;
-    font-size: 3vw;
+    font-size: 2vw;
     letter-spacing: 5px;
-    margin-left: 0.5vw;
-    position: relative;
-    left: 0vw;
-    top: 3vh;
+    margin: 0 auto;
+    padding-bottom: 30px;
 }
 
-.developer {
-    margin-bottom: -9vh;
+.gordon {
+    margin: 0 auto;
 }
 
 .vertical-line-home {
@@ -55,35 +48,95 @@
 .headshot {
     height: auto;
     filter: grayscale(1);
-    width: 15vw;
     border-radius: 500px;
+    padding: 10px;
 }
 
-.headshot-con {
+.image-bio-con {
+    width: 15%;
     display: flex;
-    padding: 10px;
-    width: 15vw;
     flex-direction: column;
 }
 
-.headshot-con > p {
-    font-family: 'Rajdhani', sans-serif;
-    padding: 10px;
-}
 
-.image-tag-con {
+.image-con {
     display: flex;
     flex-direction: column;
     padding: 10px 0px;
 }
 
+.tag-text-con {
+    padding: 10px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .link-con {
-    padding-top: 10px;
-    font-size: 3vw;
     filter: grayscale(1);
     opacity: .85;
+}
+
+.icons {
+    margin: 0px 1vw;
+    font-size: 3vw;
+    opacity: .65;
+}
+
+.landing-button-con {
     display: flex;
-    justify-content: space-around;
-    margin-top: 10px;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.landing-area {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.landing-area.dark {
+    background-color: #010101;
+    color: white;
+}
+
+.gen-button-con {
+    width: fit-content;
+    background-color: #010101;
+    border: 1px solid black;
+    padding: 10px;
+    font-weight: 700;
+    border-radius: 15px;
+    margin: 10px auto;
+    cursor: pointer;
+    box-shadow: 0px 5px 6px 1px #999999;
+}
+
+.gen-button-con.dark {
+    width: fit-content;
+    background-color: blue;
+    border: 1px solid black;
+    padding: 10px;
+    font-weight: 700;
+    border-radius: 15px;
+    margin: 10px auto;
+    cursor: pointer;
+    box-shadow: 0px 5px 6px 1px white;
+}
+
+span {
+    color: white;
+}
+
+.retro {
+    background-color: blue;
+}
+
+.stars {
+    background: cadetblue;
+}
+
+.gradient {
+    background-color: chocolate;
 }
 

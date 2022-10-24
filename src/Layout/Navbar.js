@@ -12,7 +12,7 @@ function Navbar() {
         <ul className='container'>
           <li key={item.id}>
             <Link className='nav-link-elements' to={item.path}>
-              <span>{item.title}</span>
+              <span className='nav-link-title'>{item.title}</span>
             </Link>
           </li>
         </ul>
