@@ -4,25 +4,17 @@
 .homeCard {
     display: flex;
     font-family: 'Rajdhani', sans-serif;
+    height: 100vh;
 }
-
-
-.homeCard > .home-text-con {
-    display: flex;
-    align-items: left;
-    margin: 0 auto;
-    height: fit-content;
-}
-    
 
 .home-text-con {
     display: flex;
     flex-direction: column;
+    margin: 0 auto;
 }
 
 .home-text-con > h1 {
-    display: flex;
-    font-size: 9vw;
+    font-size: 12vw;
 }
 
 .home-text-con > h3 {
@@ -33,110 +25,68 @@
 }
 
 .gordon {
-    margin: 0 auto;
-}
-
-.vertical-line-home {
-    opacity: .85;
-    height: 100vh;
-    z-index: 1;
-    border: 1px solid black;
-    filter: blur(1px);
+    z-index: 2;
+    white-space: nowrap;
+    display: inline-block;
 }
 
 
 .headshot {
-    height: auto;
+    max-width: 100%;
     filter: grayscale(1);
     border-radius: 500px;
-    padding: 10px;
+    z-index: 1;
+    position: relative;
+    top: 2em;
+    right: 4em;
 }
 
-.image-bio-con {
+.image-con {
+    display: inline-block;
+    height: 100%;
+    width: auto;
+    z-index: 1;
+}
+
+
+
+/* .image-bio-con {
     width: 15%;
     display: flex;
     flex-direction: column;
-}
+} */
 
 
-.image-con {
-    display: flex;
-    flex-direction: column;
-    padding: 10px 0px;
-}
-
-.tag-text-con {
+/* .tag-text-con {
     padding: 10px 15px;
     display: flex;
     flex-direction: column;
     align-items: center;
-}
+} */
 
-.link-con {
+/* .link-con {
     filter: grayscale(1);
     opacity: .85;
-}
+} */
 
-.icons {
+/* .icons {
     margin: 0px 1vw;
     font-size: 3vw;
     opacity: .65;
-}
+} */
 
-.landing-button-con {
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto;
+.landing-text-image-con {
     padding: 50px;
+    display: flex;
 }
 
 .landing-area {
-    margin: 0 auto;
     width: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
-.landing-area.dark {
-    background-color: #010101;
-    color: white;
+.button-con {
+    margin: auto 0;
+    z-index: 3;
 }
-
-.gen-button-con {
-    width: fit-content;
-    background-color: #010101;
-    border: 1px solid black;
-    padding: 10px;
-    font-weight: 700;
-    border-radius: 15px;
-    margin: 10px auto;
-    cursor: pointer;
-    box-shadow: 0px 5px 6px 1px #999999;
-}
-
-.gen-button-con.dark {
-    width: fit-content;
-    background-color: blue;
-    border: 1px solid black;
-    padding: 10px;
-    font-weight: 700;
-    border-radius: 15px;
-    margin: 10px auto;
-    cursor: pointer;
-    box-shadow: 0px 5px 6px 1px white;
-}
-
-span {
-    color: white;
-}
-
-.retro {
-    background-color: blue;
-}
-
-.stars {
-    background: cadetblue;
-}
-
-.gradient {
-    background-color: chocolate;
-}
-

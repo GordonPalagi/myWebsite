@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import './LayoutCSS/Navbar.css'
-import { SidebarData } from '../Components/SidebarData'
+import SidebarData from '../Components/SidebarData'
 
 function Navbar() {
 
