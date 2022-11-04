@@ -6,7 +6,7 @@
     opacity: .85;
     display: flex;
     align-items: center;
-    height: 50px;
+    height: 60px;
     border-bottom: 1px solid black;
     box-shadow: 0px 0px 5px 0px;
     justify-content: flex-end;
@@ -20,6 +20,7 @@
 
 span {
     color: black;
+    padding: 5px 0px;
 }
 
 .nav-links {
